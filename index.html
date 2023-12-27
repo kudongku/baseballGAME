@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>baseball game</title>
 
-    <link rel="icon" href="/icon.png" type="image/x-icon" />
+    <!-- 파비콘 가져옴 -->
+    <link rel="icon" href="/ball.png" type="image/x-icon" />
 
     <!-- 제이쿼리를 가져기 옴-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,6 +18,11 @@
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <audio controls loop preload="auto">
+      <source src="song.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
     <header>
       <div class="title">숫자야구게임</div>
       <hr />
